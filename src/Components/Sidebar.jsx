@@ -15,12 +15,14 @@ const Sidebar = () => {
         <>
             <div className='w-60 fixed'>
                 <div className='bg-[#4554c9] text-2xl text-center text-white px-10 py-5 h-20'><a href="/">Dashboard</a></div>
-                <div className='flex items-center px-10 py-7 text-lg font-bold text-[#77767f]'><div className='w-6 inline-block mr-3'><img className='object-contain' src={Speedometer} /></div> Dashboard</div>
+                <div className='flex items-center px-10 py-7 text-lg font-bold text-[#77767f]'><div className='w-6 inline-block mr-3'><img className='object-contain' src={Speedometer} /></div> <a href="/">Dashboard</a></div>
                 <div className='border border-[#ececee] bg-[#ececee]'></div>
                 <ul>
                     <li className='py-3 px-10 text-[#b8b8c3] tracking-widest'>FEATURES</li>
-                    <li className=' cursor-pointer flex items-center py-2 px-10 hover:bg-slate-200'><div className='w-6 inline-block mr-3'>
-                        <img className='object-contain' src={bootstrap} alt="" /></div> Bootstrap <div className='w-4 ml-auto'><img className='object-contain' src={forwardarrow} alt="" /></div></li>
+                    <a href="/">
+                        <li className=' cursor-pointer flex items-center py-2 px-10 hover:bg-slate-200'><div className='w-6 inline-block mr-3'>
+                            <img className='object-contain' src={bootstrap} alt="" /></div> Bootstrap <div className='w-4 ml-auto'><img className='object-contain' src={forwardarrow} alt="" /></div></li>
+                    </a>
                     <a href="/form">
                         <li className=' hover:bg-slate-200 cursor-pointer flex items-center py-2 px-10'><div className='w-6 inline-block mr-3'>
                             <img className=' hover:bg-slate-200 object-contain' src={grid} alt="" /></div> Forms  <div className='w-4 ml-auto'><img className='object-contain' src={forwardarrow} alt="" /></div></li>
